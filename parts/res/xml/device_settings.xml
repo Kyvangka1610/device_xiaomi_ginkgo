@@ -98,4 +98,17 @@
             settings:units="%" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="vibration"
+        android:title="@string/vibration_title">
+
+        <org.lineageos.settings.preferences.VibrationSeekBarPreference
+            android:key="vibration_strength"
+            android:title="@string/vibration_strength_title"
+            android:min="10"
+            android:max="100"
+            android:defaultValue="85"
+            settings:units="%" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

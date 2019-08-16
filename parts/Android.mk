@@ -23,6 +23,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
     androidx.preference_preference \
     VendorSupport-preference \
+    me.waveproject.framework \
     SettingsLib
 
 LOCAL_RESOURCE_DIR := \
