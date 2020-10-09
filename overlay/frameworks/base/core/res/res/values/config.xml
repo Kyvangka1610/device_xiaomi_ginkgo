@@ -689,9 +689,6 @@
     <!-- Enable Smart charging. -->
     <bool name="config_deviceSupportSmartCharging">true</bool>
 
-    <!-- Enable Smart charging. -->
-    <bool name="config_deviceSupportSmartCharging">true</bool>
-
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_SmartChargingSuspendValue" translatable="false">1</string>    
@@ -702,6 +699,11 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
+    
+        <!-- Whether device supports sensor based doze customizations -->
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dozePulseTilt">true</bool>
+    <bool name="config_dozePulseProximity">true</bool>
 
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_disabledComponents" translatable="false">
