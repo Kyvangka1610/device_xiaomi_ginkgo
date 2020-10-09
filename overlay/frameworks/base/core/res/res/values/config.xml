@@ -695,7 +695,7 @@
     <string name="config_smartChargingResumeValue" translatable="false">0</string>
 
     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">true</bool>
+    <bool name="config_enableSmartPixels">true</bool>
 
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_disabledComponents" translatable="false">
