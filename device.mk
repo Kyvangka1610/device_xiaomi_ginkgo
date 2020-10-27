@@ -96,3 +96,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from trinket-common
 $(call inherit-product, device/xiaomi/trinket-common/trinket.mk)
+
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := trinket
