@@ -26,6 +26,8 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := Kyvangka1610
+WITH_GAPPS=true
+TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Device identifier
