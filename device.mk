@@ -16,6 +16,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
 
+#DOZE
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -102,3 +106,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from trinket-common
 $(call inherit-product, device/xiaomi/trinket-common/trinket.mk)
+
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := trinket
