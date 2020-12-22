@@ -8,3 +8,7 @@ ro.se.type=HCE,UICC
 #Octavi
 ro.octavi.status=Official
 ro.octavi.maintainer=Kyvangka1610
+
+#Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
