@@ -6,7 +6,7 @@ audio.sys.offload.pstimeout.secs=3
 ro.se.type=HCE,UICC
 
 #Octavi
-ro.octavi.status=Official
+ro.octavi.status=2.1 Official
 ro.octavi.maintainer=Kyvangka1610
 
 #Blur
