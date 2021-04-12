@@ -38,9 +38,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 $(call inherit-product, vendor/miuicamera/config.mk)
 
-PRODUCT_PACKAGES += \
-    libmedia_jni_shim
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.ginkgo

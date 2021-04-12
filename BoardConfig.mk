@@ -65,9 +65,5 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Shims
-TARGET_LD_SHIM_LIBS := \
-    system/lib/libcameraservice.so|libmedia_jni_shim.so
-
 # Inherit from the proprietary version
 -include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
