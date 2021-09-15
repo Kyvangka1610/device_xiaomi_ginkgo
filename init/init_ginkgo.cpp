@@ -52,6 +52,9 @@ void vendor_load_properties()
         model = "Redmi Note 8";
     }
 
+    // Set Maintainer Name for Wave-OS
+    property_override("ro.wave.maintainer", "Thago(Lohit)");
+
     // Override all partitions' props
     string prop_partitions[] = { "", "odm.", "product.", "system.",
 					"system_ext.", "bootimage.", "vendor." };
