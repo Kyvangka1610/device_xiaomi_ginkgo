@@ -53,7 +53,7 @@ void vendor_load_properties()
     }
 
     // Set Maintainer Name for Wave-OS
-    property_override("ro.wave.maintainer", "Thago(Lohit)");
+    property_override("ro.wave.maintainer", "Kyvangka1610");
 
     // Override all partitions' props
     string prop_partitions[] = { "", "odm.", "product.", "system.",
