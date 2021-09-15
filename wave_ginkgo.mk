@@ -36,4 +36,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Wave-OS Specific stuffs
-WAVE_BUILD_TYPE := UNOFFICIAL
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.wave.maintainer_name=Kyvangka1610
